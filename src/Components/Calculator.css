@@ -1,0 +1,52 @@
+.container{
+
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.calculator{
+    padding: 20px;
+    background: rgb(63,94,251);
+    background: -moz-radial-gradient(circle, rgba(63,94,251,1) 38%, rgba(252,70,107,1) 84%);
+    background: -webkit-radial-gradient(circle, rgba(63,94,251,1) 38%, rgba(252,70,107,1) 84%);
+    background: radial-gradient(circle, rgba(63,94,251,1) 38%, rgba(252,70,107,1) 84%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f5efb",endColorstr="#fc466b",GradientType=1);
+    border-radius: 10px;
+}
+
+form input{
+    width: 60px;
+   height: 60px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 26px;
+    background-color: rgb(142, 208, 165);
+    color: white;
+}
+
+form input[type=button]:hover{
+    background-color: rgb(182, 28, 28);
+    cursor: pointer;
+}
+
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 5px 10px 1px;
+}
+
+form .display input{
+    background-color:rgb(252, 252, 252);
+   flex: 1;
+   text-align: right;
+   font-size: 40px;
+}
+form input.equal{
+    width: 130px;
+}

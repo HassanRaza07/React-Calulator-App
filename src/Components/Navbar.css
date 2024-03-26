@@ -1,0 +1,25 @@
+
+.menu li{
+    
+    list-style: none;
+    align-items:  center;
+    justify-content: space-between;
+    gap: 333px;
+
+}
+ul{
+   display: flex;
+   gap: 40px;
+   justify-content: center;
+   align-items: center;
+}
+.search{
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.main-container{
+   display: flex;
+   gap: 36px;
+}
